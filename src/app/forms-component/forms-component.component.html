@@ -1,0 +1,138 @@
+<!-- Purchase Form -->
+
+
+<section id="order"> 
+        
+    <h2 class="buynow">Order</h2>
+
+    <div class="formbox">
+
+        <form action="#" [formGroup]="purchaseForm">
+
+            <div class="platformbox">
+
+                <label class="platform1" for="platform">Select Your Platform</label>
+                <select formControlName="platform" class="platformclass" name="platform">
+                    <option value="pc">PC</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="playstation 5">Playstation 5</option>
+                </select>
+
+            </div>
+
+            <div class="editionbox">
+
+                <label class="platform1" for="edition">Select Your Edition</label>
+                <select formControlName="edition" class="platformclass" name="edition">
+                    <option value="standart edition">Standart Edition</option>
+                    <option value="premium edition">Premium Edition</option>
+                </select>
+
+            </div>
+
+            <div class="marketbox">
+
+                <label class="platform1" for="market">Select Market</label>
+                <select formControlName="market" class="platformclass" name="market">
+                    <option value="rockstargames">Rockstargames</option>
+                    <option value="steam">Steam</option>
+                </select>
+
+            </div>
+
+            <div class="dlcbox">
+
+                <input formControlName="check" type="checkbox" id="dlc" name="dlc1">
+                <label for="dlc">Include DLC's</label>
+
+            </div>
+
+            <div class="stockBox" *ngIf="purchaseForm.status == 'VALID'">
+                <strong>In Stock</strong>
+            </div>
+            <button class="button" [disabled]="purchaseForm.invalid" (click)="onOrder()">Buy</button>
+
+        </form>
+
+        <img class="buy-gta5" src="../assets/buy-gta5.png" alt="image">
+
+    </div>
+
+
+
+</section>
+
+
+<!-- Contact Form -->
+
+
+
+<section class="section9" id="contactus">
+
+    <h2 class="cont">Contact Us</h2>
+
+       
+        <form action="#" [formGroup]="userForm">
+            
+            <div class="bigformbox">
+
+                <div class="smallformbox">
+                
+                    <label class="fnameclass" for="fname">First Name</label>
+                    <input class="textclass" [class.goRed]="userForm?.errors?.['match'] == true" type="text" name="firstname" placeholder="Your Name..." formControlName="firstName">
+                    
+                    <div class="errorMessage" *ngIf="userForm.get('firstName')?.touched">
+                    <div class="errorMessage" *ngIf="userForm.get('firstName')?.dirty">
+                        <strong class="errorMessage" *ngIf="userForm.get('firstName')?.errors?.['required']">{{"box must be filled" | titlecase}}</strong>
+                        <strong class="errorMessage" *ngIf="userForm.get('firstName')?.errors?.['minlength']">{{"name must be at least 4 charecters long" | titlecase}}</strong>
+                    </div>
+                    </div>
+                    
+                    <label class="lnameclass" for="lname">Last Name</label>
+                    <input class="textclass" [class.goRed]="userForm?.errors?.['match'] == true" type="text" name="lastname" placeholder="Your Last Name..." formControlName="lastName">
+
+                    <div class="errorMessage" *ngIf="userForm.get('lastName')?.touched">
+                    <div class="errorMessage" *ngIf="userForm.get('lastName')?.dirty">
+                        <strong class="errorMessage" *ngIf="userForm.get('lastName')?.errors?.['required']">{{"box must be filled" | titlecase}}</strong>
+                        <strong class="errorMessage" *ngIf="userForm.get('lastName')?.errors?.['minlength']">{{"name must be at least 5 charecters long" | titlecase}}</strong>
+                        <strong class="errorMessage" *ngIf="userForm?.errors?.['match']">{{"first name and last name shouldn't match" | titlecase}}</strong>
+                    </div>
+                    </div>
+
+                    <label class="countryclass" for="country">Country</label>
+                    <select class="countryselect" name="country" formControlName="country">
+                        <option value="austria">Austria</option>
+                        <option value="australia">Australia</option>
+                        <option value="belgia">Belgia</option>                            
+                        <option value="canada">Canada</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="georgia">Georgia</option>
+                        <option value="hiddenleafvillage">Hidden Leaf Village</option>
+                        <option value='italy'>Italy</option>
+                        <option value="unitedstates">United States</option>
+                    </select>
+                    <div class="errorMessage" *ngIf="userForm.get('country')?.touched">
+                    <div class="errorMessage" *ngIf="userForm.get('country')?.errors?.['required']">{{"choose your current location" | titlecase}}</div>
+                    </div>
+                </div>
+
+                    
+                    <label class="textareaclass" for="textareas">Your Message</label>
+                    <textarea class="textareabox" name="textareas" placeholder="Your Message..." formControlName="yourMessage"></textarea>
+
+                    <div class="errorMessage" *ngIf="userForm.get('yourMessage')?.touched">
+                    <div class="errorMessage" *ngIf="userForm.get('yourMessage')?.dirty">
+                        <strong class="errorMessage" *ngIf="userForm.get('yourMessage')?.errors?.['required']">{{"type your message" | titlecase}}</strong>
+                        <strong class="errorMessage" *ngIf="userForm.get('yourMessage')?.errors?.['minlength']">{{"message must be at least 10 charecters long" | titlecase}}</strong>
+                    </div>
+                    </div>
+
+                    <button class="button2" [disabled]="userForm.invalid" (click)="onSubmit()">Submit</button>
+
+            </div>
+
+        </form>
+
+</section>
