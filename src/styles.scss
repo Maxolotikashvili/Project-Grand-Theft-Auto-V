@@ -1,5 +1,30 @@
-@import url(app/Scss/reset.scss);
-@import url(app/Scss/style.scss);
-@import url(app/Scss/hover.scss);
-@import url(app/Scss/responsive.scss);
-@import url(app/Scss/fonts.scss);
+// Font
+
+@font-face {
+    font-family: "Pricedown Bl";
+    src: url("assets/fonts/PricedownBl-Regular.eot");
+    src: url("assets/fonts/PricedownBl-Regular.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/PricedownBl-Regular.woff2") format("woff2"),
+        url("assets/fonts/PricedownBl-Regular.woff") format("woff"),
+        url("assets/fonts/PricedownBl-Regular.ttf") format("truetype"),
+        url("assets/fonts/PricedownBl-Regular.svg#PricedownBl-Regular") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Reset
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

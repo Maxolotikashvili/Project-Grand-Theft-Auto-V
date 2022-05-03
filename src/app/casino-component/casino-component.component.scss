@@ -1,0 +1,492 @@
+.backgroundbox4 {
+    background-color: #923cb5;
+    background-image: -o-linear-gradient(bottom, #511569 0%, #15001d 74%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#511569), color-stop(74%, #15001d));
+    background-image: linear-gradient(0deg, #511569 0%, #15001d 74%);
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.diamondcasinobox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.fa-gembox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    width: 30%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.fa-gem {
+    font-size: 30px;
+    color: purple;
+}
+
+.diamondh {
+    font-size: 32px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(129, 0, 129);
+}
+
+.choose {
+    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(88, 0, 88);
+}
+
+.approachbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 150px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.loudbox {
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding-bottom: 50px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.loudbox:hover {
+    background-color: black;
+}
+
+.silentbox {
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding-bottom: 50px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.silentbox:hover {
+    background-color: black;
+}
+
+.bigconbox {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding-bottom: 50px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.bigconbox:hover {
+    background-color: black;
+}
+
+.loud {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.stealth {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.bigcon {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.loudh {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(184, 0, 0);
+}
+
+.silenth {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: darkblue;
+}
+
+.bigconh {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: darkorange;
+}
+
+.loudp {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    color: #7b7b7c;
+}
+
+.gunfights {
+    color: rgb(184, 0, 0);
+}
+
+.stealthspan {
+    color: darkblue;
+}
+
+.disguise {
+    color: darkorange;
+}
+
+.engage {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: rgb(88, 0, 88);
+    margin-left: 10px;
+}
+
+.bigbox1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.smallbox-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 40px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.smallbox-1:hover {
+    background-color: rgb(0, 0, 0, 0.91);
+}
+
+.intro {
+    border-radius: 40px;
+    margin-right: 15px;
+}
+
+.introp {
+    max-width: 400px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.introp1 {
+    max-width: 400px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+    text-align: center;
+}
+
+.dheist {
+    color: rgb(136, 0, 136);
+}
+
+.smallbox-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.4);
+    border-radius: 40px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    padding-left: 10px;
+}
+
+.smallbox-2:hover {
+    background-color: rgb(0, 0, 0, 0.91);
+}
+
+.wheel {
+    border-radius: 40px;
+    margin-left: 15px;
+}
+
+.wheelp {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+    margin-left: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wheelp1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(75, 75, 75);
+    max-width: 400px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.lucky {
+    color: purple;
+}
+
+.smallbox-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(0, 0, 0, 0.4);
+    max-width: 780px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.smallbox-3:hover {
+    background-color: rgb(0, 0, 0, 0.91);
+}
+
+.casino {
+    border-radius: 50px;
+}
+
+.textbox4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.missionh {
+    font-size: 26px;
+    font-family: "Heebo", sans-serif;
+    color: rgb(153, 0, 153);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.libox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.li1box {
+    margin-right: 15px;
+}
+
+.list {
+    margin-top: 14px;
+    font-family: "Heebo", sans-serif;
+    color: purple;
+}
+
+.own {
+    margin-left: 15px;
+    font-size: 38px;
+    margin-bottom: 80px;
+    color: rgb(100, 0, 100);
+    font-family: "Montserrat", sans-serif;
+}
+
+.buildbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.room {
+    border-radius: 6px;
+    margin-bottom: 55px;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.room:hover {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+// Responsive
+
+@media (max-width: 1254px) {
+    .loudbox {
+        margin-bottom: 50px;
+    }
+
+    .silentbox {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .loudbox {
+        margin-bottom: 50px;
+    }
+
+    .silentbox {
+        margin-bottom: 50px;
+    }
+
+    .engage {
+        text-align: center;
+    }
+
+    .bigbox1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .smallbox-1 {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 860px) {
+    .casino {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 854px) {
+    .choose {
+        text-align: center;
+    }
+}
+
+@media (max-width: 697px) {
+    .casino {
+        margin: 0 auto;
+    }
+
+    .smallbox-3 {
+        padding: 17px;
+    }
+}
+
+@media (max-width: 650px) {
+    .smallbox-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .wheelp {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 630px) {
+    .smallbox-1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .introp {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 623px) {
+    .own {
+        text-align: center;
+    }
+}

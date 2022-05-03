@@ -1,0 +1,284 @@
+.buynow {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Pricedown Bl";
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+/* Form I */
+
+.formbox {
+    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.platformbox {
+    margin-bottom: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.platformclass {
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid rgb(0, 0, 0) !important;
+    border-radius: 3px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.platformclass:focus {
+    outline: none;
+}
+
+.platform1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.editionbox {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.marketbox {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.dlcbox {
+    margin-bottom: 30px;
+}
+
+.buy-gta5 {
+    margin-right: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.stockBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: green;
+}
+
+.button {
+    max-width: 340px;
+    width: 100%;
+    font-size: 26px;
+    border-color: rgb(184, 184, 184);
+    border-radius: 3px;
+    line-height: 40px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.button:focus {
+    outline: none;
+}
+
+/* Section IX */
+
+.section9 {
+    background-color: #7c7c7c1e;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.cont {
+    margin-left: 5px;
+    font-family: "Pricedown Bl";
+    font-size: 52px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+/* Forms II */
+
+.bigformbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.smallformbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+}
+
+.textclass {
+    font-size: 16px;
+    padding: 6px;
+    font-family: "Titillium Web", sans-serif;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 2px;
+    border: 1px solid #e2e2e2;
+    outline-color: white;
+}
+
+.fnameclass {
+    margin-bottom: 5px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+}
+
+.lnameclass {
+    margin-top: 40px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.countryclass {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.countryselect {
+    max-width: 800px;
+    font-size: 11px;
+    width: 100%;
+    padding: 6px;
+    margin-top: 2px;
+    border: 1px solid #e2e2e2;
+    outline-color: white;
+}
+
+.textareaclass {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.textareabox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    margin-top: 2px;
+    font-size: 11px;
+    border: 1px solid #e2e2e2;
+}
+
+.textareabox:focus {
+    outline: none;
+}
+
+.errorMessage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 0, 64);
+}
+
+.ng-dirty {
+    border-color: rgb(255, 0, 64);
+}
+
+.ng-valid {
+    border-color: rgb(0, 167, 0);
+}
+
+.goRed {
+    border-color: rgb(255, 0, 64);
+}
+
+.button2 {
+    padding: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 26px;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+// Responsive
+
+@media (max-width: 1200px) {
+    .buy-gta5 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 860px) {
+    .formbox {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .buy-gta5 {
+        display: none;
+    }
+}

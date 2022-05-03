@@ -1,0 +1,498 @@
+.news {
+    font-size: 54px;
+    font-family: "Pricedown Bl";
+    color: black;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.backgroundbox2 {
+    background-color: #f5d020;
+    background-image: -o-linear-gradient(bottom, #a6ff00 0%, #ff6600 74%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#a6ff00), color-stop(74%, #ff6600));
+    background-image: linear-gradient(360deg, #a6ff00 0%, #ff6600 74%);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.smallbox1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 95%;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.smallbox1:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.smugglers {
+    max-width: 600px;
+    width: 100%;
+}
+
+.fortextbox {
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.arenah4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: orangered;
+    margin-top: 3px;
+}
+
+.arenap1 {
+    color: rgb(129, 129, 129);
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.arenap2 {
+    color: rgb(129, 129, 129);
+    margin-top: 10px;
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+}
+
+.arenap3 {
+    color: rgb(129, 129, 129);
+    margin-top: 10px;
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+}
+
+.carnage {
+    color: orangered;
+}
+
+.flagwar {
+    color: orangered;
+}
+
+.smallbox2 {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 100px;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.smallbox2:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.stunt {
+    color: rgb(51, 128, 0);
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.stuntp1 {
+    font-size: 18px;
+    font-family: "Heebo", sans-serif;
+    color: rgb(129, 129, 129);
+    margin-bottom: 10px;
+}
+
+.stuntp2 {
+    font-size: 18px;
+    font-family: "Heebo", sans-serif;
+    color: rgb(129, 129, 129);
+    margin-right: 10px;
+}
+
+.stunt-race {
+    max-width: 600px;
+    width: 100%;
+}
+
+.fortextbox2 {
+    width: 100%;
+    margin-top: 7px;
+    padding-left: 16px;
+}
+
+.sun-sea {
+    color: green;
+}
+
+.tight {
+    color: green;
+}
+
+/* Section II */
+
+.relatedbox {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* Relatedbox1 */
+
+.deadline {
+    margin-left: 5px;
+    border-radius: 10px;
+    max-width: 416px;
+    width: 100%;
+}
+
+.gta-online {
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+.triple-rewards {
+    font-family: "Heebo", sans-serif;
+    max-width: 416px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.datebox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.date {
+    color: rgb(90, 90, 90);
+    font-family: "Heebo", sans-serif;
+    font-size: 14px;
+}
+
+/* Relatedbox2 */
+
+.previon {
+    border-radius: 10px;
+    max-width: 416px;
+    width: 100%;
+}
+
+.karin-previon {
+    font-family: "Heebo", sans-serif;
+    max-width: 416px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Relatedbox3 */
+
+.cypher {
+    border-radius: 10px;
+    margin-right: 5px;
+    max-width: 416px;
+    width: 100%;
+}
+
+.available {
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    max-width: 416px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* Backgroundbox3 */
+
+.backgroundbox3 {
+    background-color: #fefefe;
+    background-image: -o-linear-gradient(135deg, #fefefe 0%, #00a4e4 74%);
+    background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
+    width: 100%;
+}
+
+.smallbackgroundbox1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.mansionbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mansion {
+    max-width: 316px;
+    width: 100%;
+}
+
+.leave {
+    max-width: 316px;
+    width: 100%;
+    margin-top: 3px;
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+
+.the {
+    margin-top: 70px;
+    font-size: 40px;
+    margin-left: 18px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pericobox {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.elrubio {
+    margin-left: 5px;
+    margin-bottom: 2px;
+    max-width: 430px;
+    width: 100%;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.smallbackgroundbox2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bigpicbox {
+    background-color: rgb(0, 0, 0, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+}
+
+.picbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.gold {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.diamond {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.textbox1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 580px;
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.treasuretext {
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.cash {
+    color: green;
+    font-family: "Heebo", sans-serif;
+}
+
+.gold {
+    color: orange;
+}
+
+.stash {
+    color: orangered;
+}
+
+.upto {
+    color: greenyellow;
+}
+
+// News
+
+.adnews {
+    margin-top: 100px;
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.adbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.gta6 {
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.gta5h {
+    font-size: 16px;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.coming {
+    font-family: "Heebo", sans-serif;
+    font-size: 28px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.date1 {
+    font-family: "Heebo", sans-serif;
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    margin-left: 28px;
+}
+
+.premium {
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.date2 {
+    color: rgb(90, 90, 90);
+    font-family: "Heebo", sans-serif;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+// Responsive
+
+@media (max-width: 1273px) {
+    .relatedbox1 {
+        margin-bottom: 40px;
+    }
+
+    .relatedbox2 {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ps5box {
+        margin-bottom: 100px;
+    }
+
+    .backgroundbox2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .smallbox1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-width: 600px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .smallbox2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+        max-width: 600px;
+        width: 100%;
+        margin-right: 40px;
+        padding-bottom: 10px;
+    }
+
+    .adbox {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
