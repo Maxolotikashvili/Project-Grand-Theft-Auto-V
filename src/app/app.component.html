@@ -1,80 +1,65 @@
 <body>
+  <header class="backgroundbox1">
+    <div class="firstbigbox">
+      <a class="rockstara" href="index.html"
+        ><img class="rockstar" src="assets/rockstar.svg" alt="logo"
+      /></a>
 
-    <header class="backgroundbox1">
+      <div class="headerbox">
+        <nav class="navigation" [class.active]="active" id="nav">
+          <ul class="ul1">
+            <li class="li">
+              <a class="home1" href="index.html">Home</a>
+            </li>
 
-        <div class="firstbigbox">
+            <li class="li">
+              <a class="home1" href="#newspage">News</a>
+            </li>
 
-           <a class="rockstara" href="index.html"><img class="rockstar" src="../assets/rockstar.svg" alt="logo"></a>
+            <li class="li">
+              <a class="home1" href="#explore">Explore</a>
+            </li>
 
-            <div class="headerbox">
+            <li class="li">
+              <a class="home1" href="#order">Order</a>
+            </li>
 
-                <nav class="navigation" [class.active]="active" id="nav">
+            <li class="li">
+              <a class="home1" href="#contactus">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-                    <ul class="ul1">
+      <i class="fas fa-bars" (click)="toggleButton()"></i>
+    </div>
 
-                        <li class="li">
-                            <a class="home1" href="index.html">Home</a>
-                        </li>
+    <h1 class="h1">Grand Theft Auto V</h1>
 
-                        <li class="li">
-                            <a class="home1" href="#newspage">News</a>
-                        </li>
+    <div class="sponsorbox">
+      <img class="unreal" src="assets/unreal.svg" alt="logo" />
+      <img class="unitylogo" src="assets/unitylogo.svg" alt="logo" />
+      <img class="frostbite" src="assets/frostbite.svg" alt="logo" />
+    </div>
+  </header>
 
+  <!-- Section I & II & III -->
 
-                        <li class="li">
-                            <a class="home1" href="#explore">Explore</a>
-                        </li>
+  <app-news-component></app-news-component>
 
-                        <li class="li">
-                        <a class="home1" href="#order">Order</a>
-                        </li>
-                        
-                        <li class="li">
-                            <a class="home1" href="#contactus">Contact</a>
-                        </li>
+  <!-- Section IV -->
 
-                    </ul>
+  <app-casino-component></app-casino-component>
 
-                </nav>
+  <!-- Section V -->
 
-            </div>
-            
-            <i class="fas fa-bars" (click)="toggleButton()"></i>
+  <app-explore-component></app-explore-component>
 
-        </div>
+  <!-- Section VI -->
 
-                <h1 class="h1">
-                    Grand Theft Auto V
-                </h1>
+  <app-forms-component></app-forms-component>
 
-                <div class="sponsorbox">
+  <!-- Footer -->
 
-                    <img class="unreal" src="../assets/unreal.svg" alt="logo">
-                    <img class="unitylogo" src="../assets/unitylogo.svg" alt="logo">
-                    <img class="frostbite" src="../assets/frostbite.svg" alt="logo">
-
-                </div>
-
-    </header>
-
-    <!-- Section I & II & III -->
-
-    <app-news-component></app-news-component>
-
-    <!-- Section IV -->
-
-    <app-casino-component></app-casino-component>
-
-    <!-- Section V -->
-
-    <app-explore-component></app-explore-component>
-
-    <!-- Section VI -->
-
-    <app-forms-component></app-forms-component>
-
-    <!-- Footer -->
-
-    <app-footer-component></app-footer-component>
-
+  <app-footer-component></app-footer-component>
 </body>
